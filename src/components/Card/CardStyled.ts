@@ -1,10 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Card = styled.div`
   width: 350px;
   padding: 24px;
   color: white;
-  background: #15263f;
   box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
   border-radius: 15px;
 
@@ -14,6 +13,7 @@ export const ImageOne = styled.img`
   heigth: 100%;
   border-radius: 15px;
   cursor: pointer;
+  background-color: #00FFF8;
 
   &&:hover {
     cursor: pointer;

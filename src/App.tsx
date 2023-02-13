@@ -1,10 +1,17 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
-import CenteredCard from "./components/Styled/Card/Card";
+import GlobalStyle from "./components/Global/GlobalStyles";
+import CenteredCard from "./components/Card/Card";
+import { defaultTheme } from "./themes/defaultTheme";
+import { ThemeProvider } from "styled-components";
+
 function App() {
   return (
     <div className="App">
-      <CenteredCard />
+      <ThemeProvider theme={defaultTheme}>
+        <GlobalStyle />
+        <CenteredCard />
+      </ThemeProvider>
     </div>
   );
 }
