@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
 
   }
   body{
-    background: #0D192C;
+    background: #0D192C;    
     width: 100%;
     height: 100vh;
     display: flex;
