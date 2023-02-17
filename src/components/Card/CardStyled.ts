@@ -12,18 +12,21 @@ export const Card = styled.div`
 export const ImageOne = styled.img`
   width: 100%;
   heigth: 100%;
-  border-radius: 15px;
+  border-radius: 8px;
   cursor: pointer;
   background-color: #00FFF8;
 
-  &&:hover {
-    cursor: pointer;
-    background: #00FFF8;
+  :hover {
+    background: green;
+    border-radius: 81px;
  }
 `;
 export const H3 = styled.h3`
   margin-top: 24px;
   color: white;
+  :hover{
+    color: #00FFF8;
+  }
 `;
 export const P = styled.p`
   font-size: 18px;
@@ -70,8 +73,11 @@ export const Creation = styled.span`
 export const NameSpan = styled.span`
   font-size: 16px;
   font-weight: 400;
-
+  
   line-height: 20px;
   color: #ffffff;
   padding-left: 5px;
+  :hover{
+    color: #00FFF8;
+  }
 `;
