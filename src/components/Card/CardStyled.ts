@@ -14,10 +14,12 @@ export const ImageOne = styled.img`
   height: 100%;
   border-radius: 8px;
   cursor: pointer;
-  background-color: #00FFF8;
 
   :hover {
+    background: #00FFF8;
+    mix-blend-mode: normal;
     opacity: 0.5;
+    border-radius: 8px;
  }
 `;
 export const H3 = styled.h3`
