@@ -14,12 +14,10 @@ export const ImageOne = styled.img`
   height: 100%;
   border-radius: 8px;
   cursor: pointer;
-
+  background-color: #00FFF8;
+  position: relative;
   :hover {
-    background: #00FFF8;
-    mix-blend-mode: normal;
     opacity: 0.5;
-    border-radius: 8px;
  }
 `;
 export const H3 = styled.h3`
@@ -79,6 +77,13 @@ export const NameSpan = styled.span`
   color: #ffffff;
   padding-left: 5px;
   :hover{
-    color: #00FFF8;
+    color: #00fff8;
   }
 `;
+export const View = styled.svg`
+  position: absolute;
+  mix-blend-mode: normal;
+  margin-left: 150px;
+  margin-top: 150px;
+  transform: translate(-50%,-50%);
+`
