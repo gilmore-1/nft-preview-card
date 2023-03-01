@@ -11,9 +11,10 @@ export const Card = styled.div`
 `;
 export const ImageOne = styled.img`
   width: 100%;
-  heigth: 100%;
+  height: 100%;
   border-radius: 8px;
   cursor: pointer;
+  opacity: 0.5;
   background-color: #00FFF8;
 
   :hover {
@@ -56,8 +57,8 @@ export const HR = styled.hr`
 `;
 export const ImageTwo = styled.img`
   width: 33px;
-  heigth: 33px;
-  border: 1px solid #FFFFF;
+  height: 33px;
+  border: 1px solid #FFFFFF;
 `;
 export const Footer = styled.footer`
   margin-top: 24px;
