@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body{
     background: #0D192C;    
-    width: 100%;
+    color: #ffffff;
     height: 100vh;
     display: flex;
     justify-content: center;

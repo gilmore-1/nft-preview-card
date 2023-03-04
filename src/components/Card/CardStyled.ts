@@ -58,7 +58,7 @@ export const ImageTwo = styled.img`
   height: 33px;
   border: 1px solid #FFFFFF;
 `;
-export const Footer = styled.footer`
+export const CardInfo = styled.div`
   margin-top: 24px;
   display: flex;
   align-items: center;

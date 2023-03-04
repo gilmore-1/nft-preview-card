@@ -4,10 +4,10 @@ import avataria from "../../assets/images/image-avatar.png";
 
 import {
   Card,
+  CardInfo,
   Creation,
   Day,
   Eth,
-  Footer,
   H3,
   HR,
   ImageOne,
@@ -47,11 +47,11 @@ export default function CenteredCard() {
         </Day>
       </Second>
       <HR />
-      <Footer>
+      <CardInfo>
         <ImageTwo src={avataria}></ImageTwo>
         <Creation>Creation of</Creation>
         <NameSpan>Jules Wyvern</NameSpan>
-      </Footer>
+      </CardInfo>
     </Card>
   );
 }
